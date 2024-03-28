@@ -82,10 +82,6 @@ main {
     
 }
 
-.hidden {
-    display: none; 
-}
-
 @media screen and (max-width:1200px) {
 
     body {
@@ -108,7 +104,7 @@ main {
 
     .logo {
         border-radius: 50%;
-        width: 70%;
+        width: 54px;
         right: 50%;
     }
 
@@ -149,7 +145,7 @@ main {
     .btt_sezon {
         width: 10%;
         border: 0px;
-        height: 40%;
+        height: 100%;
         border-radius: 10px;
         cursor: pointer;
         transition-duration: .5s;

@@ -63,13 +63,14 @@ function oosen() {
 
  function filterImages(season) {
     var images = document.querySelectorAll('.photo');
-    
+
     images.forEach(function(image) {
         if (season === 'all' || image.classList.contains(season)) {
-            image.classList.remove('hidden');
+            image.style.display = 'block'; 
         } else {
-            image.classList.add('hidden');
+            image.style.display = 'none'; 
         }
     });
 }
+
 
