@@ -236,16 +236,17 @@ main {
         padding: 0;
         height: 100%;
         width: 80%;
-        gap: 10px;
+        gap: 15px;
     }
 
     .btt_sezon {
-        width: 25%;
+        width: 27%;
         border: 0px;
         height: 25%;
         border-radius: 10px;
         cursor: pointer;
         transition-duration: .5s;
+        font-size: 12px;
     }
 
     .now {
